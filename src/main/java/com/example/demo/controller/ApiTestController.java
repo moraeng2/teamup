@@ -18,4 +18,9 @@ public class ApiTestController {
 	public String test2() {
 		return "2번째 커밋용 수정";
 	}
+	
+	@GetMapping("/test3")
+	public String test3() {
+		return "3번째 커밋용 수정";
+	}
 }
