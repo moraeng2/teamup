@@ -13,4 +13,9 @@ public class ApiTestController {
 	public String test() {
 		return "spring boot 연결 성공!";
 	}
+	
+	@GetMapping("/test2")
+	public String test2() {
+		return "2번째 커밋용 수정";
+	}
 }
